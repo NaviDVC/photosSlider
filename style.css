@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider__image {
+    display: none;
+    height: 100%;
+  }
+
+  .slider__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  ion-icon {
+    font-size: 64px;
+  }
+  
+  .slider__button.prev {
+    left: 10px;
+  }
+
+  .slider__button.next {
+    right: 10px;
+  }
